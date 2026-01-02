@@ -1,0 +1,42 @@
+---
+sidebar_position: 3
+title: Cognitive Planning with LLMs
+---
+
+# Cognitive Planning with LLMs
+
+Cognitive planning is a core capability of intelligent systems, enabling them to formulate strategies, anticipate future states, and make informed decisions. In the context of large language models (LLMs), cognitive planning extends beyond simple text generation: it allows models to simulate reasoning, evaluate multiple potential outcomes, and align their outputs with complex goals.
+
+This chapter explores the principles of cognitive planning, the role of LLMs, and practical strategies for implementing planning pipelines in autonomous systems.
+
+## 1. Introduction to Cognitive Planning
+
+At its essence, cognitive planning is the process of generating a sequence of actions to achieve a specific objective. Unlike reactive behavior, which responds immediately to stimuli, planning involves foresight, reasoning, and evaluation of alternatives.
+
+In humans, cognitive planning manifests in tasks like scheduling, problem-solving, and strategic decision-making. In AI systems, especially LLM-based architectures, planning requires:
+
+- **Goal representation:** Clearly defining what the system aims to achieve.
+- **State prediction:** Estimating future states resulting from potential actions.
+- **Action selection:** Choosing steps that maximize the likelihood of achieving the goal.
+
+For example, an LLM-based robot tasked with organizing a room must determine which objects to move first, anticipate obstacles, and ensure efficient paths.
+
+## 2. Planning with Large Language Models
+
+LLMs are uniquely suited for cognitive planning due to their ability to encode extensive world knowledge and perform reasoning over text. By representing states, goals, and actions as textual tokens, LLMs can simulate planning sequences and evaluate outcomes.
+
+### 2.1 Prompting Strategies
+
+Effective cognitive planning with LLMs relies on carefully structured prompts. These prompts must:
+
+1. **Specify the goal clearly.**
+2. **Provide relevant context.**
+3. **Encourage step-by-step reasoning.**
+
+**Example:**
+
+```text
+Goal: Arrange a workspace efficiently.
+Current state: Desk is cluttered with books, pens, and gadgets.
+Instructions: Generate a step-by-step plan to organize the desk efficiently.
+```

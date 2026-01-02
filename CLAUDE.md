@@ -208,3 +208,10 @@ Wait for consent; never auto-create ADRs. Group related decisions (stacks, authe
 
 ## Code Standards
 See `.specify/memory/constitution.md` for code quality, testing, performance, security, and architecture principles.
+
+## Active Technologies
+- Python (for robotics examples), Markdown (for Docusaurus content) + OpenAI Whisper, Large Language Models (LLMs), ROS 2, Docusaurus (003-robot-vla)
+- N/A (book content) (003-robot-vla)
+
+## Recent Changes
+- 003-robot-vla: Added Python (for robotics examples), Markdown (for Docusaurus content) + OpenAI Whisper, Large Language Models (LLMs), ROS 2, Docusaurus
